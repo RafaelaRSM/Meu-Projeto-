@@ -21,8 +21,6 @@ type
     btn_salvar: TButton;
     btn_limpar: TButton;
     btn_fechar: TButton;
-    procedure btn_limparClick(Sender: TObject);
-    procedure btn_fecharClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,21 +33,5 @@ var
 implementation
 
 {$R *.dfm}
-
-procedure TForm3.btn_fecharClick(Sender: TObject);
-begin
-  close;
-end;
-
-procedure TForm3.btn_limparClick(Sender: TObject);
-begin
-  edt_nome.text := ' ' ;
-  edt_email.text := '' ;
-  edt_telefone.text := '';
-  edt_cpf.text := '';
-
-  edt_nome.setfocus
-
-end;
 
 end.

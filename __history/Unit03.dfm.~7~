@@ -38,7 +38,6 @@ object Form3: TForm3
       Height = 25
       Caption = 'Limpar'
       TabOrder = 1
-      OnClick = btn_limparClick
     end
     object btn_fechar: TButton
       Left = 466
@@ -47,7 +46,6 @@ object Form3: TForm3
       Height = 25
       Caption = 'Fechar'
       TabOrder = 2
-      OnClick = btn_fecharClick
     end
   end
   object panel_cadastro: TPanel
