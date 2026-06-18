@@ -30,7 +30,6 @@ object Form3: TForm3
       Height = 25
       Caption = 'Salvar'
       TabOrder = 0
-      OnClick = btn_salvarClick
     end
     object btn_limpar: TButton
       Left = 390
