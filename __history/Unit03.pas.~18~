@@ -21,6 +21,9 @@ type
     btn_salvar: TButton;
     btn_limpar: TButton;
     btn_fechar: TButton;
+    procedure btn_limparClick(Sender: TObject);
+    procedure btn_fecharClick(Sender: TObject);
+    procedure btn_salvarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,5 +36,33 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm3.btn_fecharClick(Sender: TObject);
+begin
+  close;
+end;
+
+procedure TForm3.btn_limparClick(Sender: TObject);
+begin
+  edt_nome.text := ' ' ;
+  edt_email.text := '' ;
+  edt_telefone.text := '';
+  edt_cpf.text := '';
+
+  edt_nome.setfocus
+
+end;
+
+procedure TForm3.btn_salvarClick(Sender: TObject);
+begin
+  if trim(edt_nome.text) = '' then
+  begin
+    ShowMessage('O campo Nome é obrigatório!');
+    exit;
+
+  end;
+  ShowMessage('cadastro feito com sucesso');
+
+end;
 
 end.
