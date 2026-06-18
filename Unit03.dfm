@@ -2,8 +2,8 @@ object Form3: TForm3
   Left = 0
   Top = 0
   Caption = 'Form3'
-  ClientHeight = 509
-  ClientWidth = 702
+  ClientHeight = 437
+  ClientWidth = 541
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,4 +11,107 @@ object Form3: TForm3
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
+  object Panelfundo1: TPanel
+    Left = 0
+    Top = 0
+    Width = 541
+    Height = 437
+    Align = alClient
+    BevelOuter = bvNone
+    Color = clGradientActiveCaption
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitWidth = 489
+    ExplicitHeight = 385
+    object btn_salvar: TButton
+      Left = 72
+      Top = 376
+      Width = 75
+      Height = 25
+      Caption = 'Salvar'
+      TabOrder = 0
+    end
+    object btn_limpar: TButton
+      Left = 390
+      Top = 376
+      Width = 75
+      Height = 25
+      Caption = 'Limpar'
+      TabOrder = 1
+    end
+    object btn_fechar: TButton
+      Left = 466
+      Top = 0
+      Width = 75
+      Height = 25
+      Caption = 'Fechar'
+      TabOrder = 2
+    end
+  end
+  object Panel2: TPanel
+    AlignWithMargins = True
+    Left = 64
+    Top = 65
+    Width = 385
+    Height = 249
+    TabOrder = 1
+    object lbnome: TLabel
+      Left = 16
+      Top = 16
+      Width = 33
+      Height = 15
+      Caption = 'Nome'
+    end
+    object lbemail: TLabel
+      Left = 16
+      Top = 64
+      Width = 34
+      Height = 15
+      Caption = 'E-mail'
+    end
+    object lb_telefone: TLabel
+      Left = 16
+      Top = 117
+      Width = 45
+      Height = 15
+      Caption = 'Telefone'
+    end
+    object lbcpf: TLabel
+      Left = 16
+      Top = 167
+      Width = 21
+      Height = 15
+      Caption = 'CPF'
+      Color = clBackground
+      ParentColor = False
+    end
+    object e_nome: TEdit
+      Left = 16
+      Top = 37
+      Width = 313
+      Height = 23
+      TabOrder = 0
+    end
+    object e_email: TEdit
+      Left = 16
+      Top = 88
+      Width = 313
+      Height = 23
+      TabOrder = 1
+    end
+    object e_telefone: TEdit
+      Left = 16
+      Top = 138
+      Width = 313
+      Height = 23
+      TabOrder = 2
+    end
+    object e_cpf: TEdit
+      Left = 16
+      Top = 188
+      Width = 313
+      Height = 23
+      TabOrder = 3
+    end
+  end
 end

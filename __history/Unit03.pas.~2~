@@ -18,9 +18,6 @@ type
     e_email: TEdit;
     e_telefone: TEdit;
     e_cpf: TEdit;
-    btn_salvar: TButton;
-    btn_limpar: TButton;
-    btn_fechar: TButton;
   private
     { Private declarations }
   public
