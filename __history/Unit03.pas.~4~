@@ -8,8 +8,8 @@ uses
 
 type
   TForm3 = class(TForm)
-    panel_fundo: TPanel;
-    panel_cadastro: TPanel;
+    Panelfundo: TPanel;
+    Panelcadastro: TPanel;
     lb_nome: TLabel;
     lb_email: TLabel;
     lb_telefone: TLabel;

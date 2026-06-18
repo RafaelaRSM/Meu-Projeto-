@@ -11,7 +11,7 @@ object Form3: TForm3
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
-  object panel_fundo: TPanel
+  object Panelfundo: TPanel
     Left = 0
     Top = 0
     Width = 541
@@ -48,7 +48,7 @@ object Form3: TForm3
       TabOrder = 2
     end
   end
-  object panel_cadastro: TPanel
+  object Panelcadastro: TPanel
     AlignWithMargins = True
     Left = 64
     Top = 65

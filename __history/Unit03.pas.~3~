@@ -8,16 +8,16 @@ uses
 
 type
   TForm3 = class(TForm)
-    panel_fundo: TPanel;
-    panel_cadastro: TPanel;
-    lb_nome: TLabel;
-    lb_email: TLabel;
+    Panelfundo1: TPanel;
+    Panel2: TPanel;
+    lbnome: TLabel;
+    lbemail: TLabel;
     lb_telefone: TLabel;
-    lb_cpf: TLabel;
-    edt_nome: TEdit;
-    edt_email: TEdit;
-    edt_telefone: TEdit;
-    edt_cpf: TEdit;
+    lbcpf: TLabel;
+    e_nome: TEdit;
+    e_email: TEdit;
+    e_telefone: TEdit;
+    e_cpf: TEdit;
     btn_salvar: TButton;
     btn_limpar: TButton;
     btn_fechar: TButton;
